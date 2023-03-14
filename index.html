@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head> 
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Smart Dustbin Viewer</title>
+    <!-- Tell the browser to be responsive to screen width -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+   
+    <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/popper.min.js"></script>
+    <script src="bootstrap/js/bootstrap.min.js"></script>
+    <!-- <script src="bootstrap/js/style.js"></script> -->
+    <link rel="icon" href="assets/img/loggbr.jpg">
+    <link rel="stylesheet" href="Station_data.css" />
+</head>
+
+<body>
+    
+    <div class="container-fluid">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="kotaka p-3 mb-5 rounded" style="float: left;">
+                        <div class="kotak1 card" style="width: 18rem; height: 30rem;">
+                            <div class=" card-body">
+                                <h5 class="card-title">ORGANIK <img src="assets/img/sampah-organik.png" alt="" style="width: 80px;"></h5>
+                                <h6 class="card-subtitle mb-2 text-muted">Level Sampah</h6>
+                                <p class="card-text"><input style="border: none;" type="text" id="organik" readonly /></p>
+                              
+                            </div>
+                            
+                            <img style="margin-left: 6%;" id="level-10" src="assets/img/level-10.png" width="65%" height="6%" >
+                            <img style="margin-left: 6%;"id="level-9" src="assets/img/level-9.png" width="65%" height="6%" >
+                            <img style="margin-left: 6%;"id="level-8" src="assets/img/level-8.png" width="65%" height="6%" >
+                            <img style="margin-left: 6%;"id="level-7" src="assets/img/level-7.png" width="65%" height="6%" >
+                            <img style="margin-left: 6%;"id="level-6" src="assets/img/level-6.png" width="65%" height="6%" >
+                            <img style="margin-left: 6%;"id="level-5" src="assets/img/level-5.png" width="65%" height="6%" >
+                            <img style="margin-left: 6%;"id="level-4" src="assets/img/level-4.png" width="65%" height="6%" >
+                            <img style="margin-left: 6%;"id="level-3" src="assets/img/level-3.png" width="65%" height="6%" >
+                            <img style="margin-left: 6%;"id="level-2" src="assets/img/level-2.png" width="65%" height="6%" >
+                            <img style="margin-left: 6%;"id="level-1" src="assets/img/level-1.png" width="65%" height="6%" >
+                        
+                        
+                            
+
+                        </div>
+                    </div>
+                </div>
+
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="kotakc p-3 mb-5 bg-body rounded" style="float: left;">
+                        <div class="kotak3 card" style="width: 18rem;height: 30rem;">
+                            <div class="kotak3 card-body">
+                                <h5 class="card-title">NON - ORGANIK <img src="assets/img/sampah-non.png" alt="" style="width: 80px;"></h5>
+                                <h6 class="card-subtitle mb-2 text-muted">Level Sampah</h6>
+                                <p class="card-text"><input style="border: none;" type="text" id="non_organik" readonly /></p>
+                            </div>
+
+                            <img style="margin-left: 6%;" id="level-10-a" src="assets/img/level-10.png" width="65%" height="6%" >
+                            <img style="margin-left: 6%;"id="level-9-a" src="assets/img/level-9.png" width="65%" height="6%" >
+                            <img style="margin-left: 6%;"id="level-8-a" src="assets/img/level-8.png" width="65%" height="6%" >
+                            <img style="margin-left: 6%;"id="level-7-a" src="assets/img/level-7.png" width="65%" height="6%" >
+                            <img style="margin-left: 6%;"id="level-6-a" src="assets/img/level-6.png" width="65%" height="6%" >
+                            <img style="margin-left: 6%;"id="level-5-a" src="assets/img/level-5.png" width="65%" height="6%" >
+                            <img style="margin-left: 6%;"id="level-4-a" src="assets/img/level-4.png" width="65%" height="6%" >
+                            <img style="margin-left: 6%;"id="level-3-a" src="assets/img/level-3.png" width="65%" height="6%" >
+                            <img style="margin-left: 6%;"id="level-2-a" src="assets/img/level-2.png" width="65%" height="6%" >
+                            <img style="margin-left: 6%;"id="level-1-a" src="assets/img/level-1.png" width="65%" height="6%" >
+                        
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <script src="https://www.gstatic.com/firebasejs/4.8.1/firebase.js"></script>
+    
+    <script src="main.js"></script>
+ 
+
+</body>
+
+</html>
